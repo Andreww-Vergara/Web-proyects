@@ -1,0 +1,26 @@
+body{
+    background-color: beige;
+}
+
+.general {
+    display: grid;
+    grid-template-columns: repeat(S, 1fr);
+    grid-template-rows: repeat(S, 1fr);
+    gap: 8px;
+}
+
+.ingredients {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+}
+
+.instructions {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 3;
+}
+
+.image {
+    grid-row: span 3 / span 3;
+    grid-column-start: 5;
+}
